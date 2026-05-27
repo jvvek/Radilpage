@@ -1,0 +1,626 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+    font-family: Inter;
+}
+
+body{
+
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+    box-sizing: border-box;
+    flex-wrap: wrap;
+ 
+    background:#020202;
+    background-image: 
+    linear-gradient(to right, #4b4a4a 1px,
+    transparent 1px),
+    linear-gradient(to bottom, #4b4b4b 1px,
+    transparent 1px);
+    background-size: 40px 40px;
+    
+     animation: gridMove 1s linear infinite;
+   
+}
+
+
+#button:active{
+
+    font-weight: bold;
+}
+
+nav{
+
+    background-color: rgba(12, 12, 12,0.5);
+    border-bottom: 1px solid rgb(50,50,50);
+    backdrop-filter: blur(3px);
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+}
+
+.store_logo{
+
+    max-width: 200px;
+    filter: invert(1);
+}
+
+
+
+#button{
+
+   font-family: Inter;
+     color: rgb(214, 214, 214);
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+     scroll-behavior: smooth;
+    
+   
+}
+
+.links-a{
+    margin-top: 50px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+}
+
+.alink{
+
+    text-decoration: none;
+    background-color: none;
+    border: 1px solid rgba(255, 255, 255,0.5);
+    padding: 15px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    backdrop-filter: blur(2px);
+  font-family: Inter;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.alink:hover{
+
+    transform: scale(1.05);
+    background-color: rgb(228, 228, 228);
+    color: rgb(8, 8, 8);
+}
+
+
+#button:hover{
+
+    transform: translateY(-5px);
+
+    transition: 0.3s;
+}
+
+
+section{
+
+    margin-top: 150px;
+    
+    
+}
+.nav-a{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.product-image{
+
+    width: 300px;
+}
+
+li{
+
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+
+h2{
+
+    font-family: Inter;
+}
+
+h1{
+    font-family: Inter;
+    text-align: center;
+    font-size: 2.4rem;
+    color: rgb(255, 255, 255);
+    
+}
+
+.products-main{
+
+    display: flex;
+    justify-content: center;
+    background-color: rgba(14, 14, 14,0.5);
+    backdrop-filter: blur(2px);
+    padding: 35px;
+    width: 50%;
+    border-radius: 15px;
+    justify-self: center;
+    
+    
+}
+
+.Portfolio-head{
+     background-color: rgba(14, 14, 14,0.5);
+     backdrop-filter: blur(2px);
+     border-radius: 15px;
+     padding: 35px;
+     width: 70%;
+     justify-content: center;
+     justify-self: center;
+}
+
+.kontakt-head{
+
+    
+     background-color: rgba(14, 14, 14,0.5);
+     backdrop-filter: blur(2px);
+     border-radius: 15px;
+     padding: 35px;
+     width: 70%;
+     justify-content: center;
+     justify-self: center;
+     margin-bottom: 150px;
+
+}
+
+
+p{
+     font-size: 1.2rem;
+}
+
+.behance{
+
+    justify-self: center;
+    text-align: center;
+    display: grid;
+    color: white;
+    font-family: Inter;
+    text-decoration: none;
+    background-color: none;
+    border: 1px solid white;
+    padding: 15px;
+    width: 15%;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(2px);
+    font-weight: bold;
+}
+
+.behance:hover{
+
+    transform: scale(1.05);
+      background-color: rgb(228, 228, 228);
+    color: black;
+}
+#download{
+
+     scroll-behavior: smooth;
+     margin-top: 270px;
+     
+}
+
+.product{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(170deg,rgb(39, 39, 39) 0%, rgb(0, 0, 0) 100%);    height: 500px;
+    border-radius: 15px;
+    width: 300px;
+    text-align: center;
+    color: white;
+    border: 1px solid rgb(39, 39, 39);
+}
+
+.product-image{
+    width: 250px;
+    justify-self: center;
+    border-radius: 15px;
+}
+
+.format,.size{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-family: Inter;
+    
+}
+
+.icons{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+   
+}
+
+.promotion{
+
+    justify-content: center;
+    display: flex;
+    background: #57c796;
+background: linear-gradient(90deg, rgba(87, 199, 150, 1) 50%, rgba(250, 253, 255, 1) 100%);
+}
+
+p{
+
+    font-family: Inter;
+    color: white;
+    text-align: center;
+}
+
+
+
+.icon{
+
+    width: 20px;
+    filter: invert(1);
+}
+
+.button-download{
+
+    width: 150px;
+    background-color: rgb(128, 255, 9);
+    box-shadow: 0px 0px 25px rgba(128, 255, 9,0.2);
+    justify-self: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: rgb(14, 14, 14);
+    font-family: Inter;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: none;
+}
+
+
+.button-download:hover{
+
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+
+
+#pop-up-warning{
+
+    justify-content: center;
+    display: flex;
+    
+   
+}
+
+.pop-up-background{
+   display: none;
+    background-color: rgba(17, 17, 17, 0.8);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   backdrop-filter: blur(5px);
+}
+
+
+#pop-up-window{
+
+    justify-content: center;
+    display: grid;
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+    width: 500px;
+    height: 800px;
+    position: fixed;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    border-radius: 15px;
+    
+   
+
+}
+
+
+h5{
+
+    font-family: Inter;
+    font-size: 1.2rem;
+}
+
+
+
+#closewindow{
+
+    position: fixed;
+    right: 0;
+    padding: 15px;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-radius: 15px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 1.3rem;
+    width: 50px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  
+}
+
+
+#closewindow:hover{
+
+    transform: scale(1.05);
+}
+
+h3{
+
+    font-family: Inter;
+}
+
+
+#icon-pop-up{
+
+    width: 25px;
+}
+
+.faq{
+
+   
+   display: grid;
+   margin-bottom: 150px;
+}
+
+
+#pop-up-q{
+
+    height: 30px;
+    max-width: 350px;
+    background-color: rgb(223, 223, 223);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 15px;
+}
+
+label{
+
+   font-family: Inter;
+}
+
+.download-packgfx{
+
+    text-decoration: none;
+    font-family: Inter;
+    background-color: rgb(110, 255, 43);
+    color: white;
+    padding: 15px;
+   width: 150px;
+    max-height: 40px;
+    align-self: center;
+    justify-self: center;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 25px rgba(110, 255, 43,0.5);
+   
+}
+
+.download-packgfx:hover{
+
+    transform: scale(1.05);
+}
+
+
+header{
+
+    display: flex;
+    justify-content: center;
+   
+}
+
+.header-h1{
+
+    color: rgb(255, 255, 255);
+  
+    max-width: 400px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.main-head{
+
+    display: flex;
+    justify-content: center;
+    
+
+   
+}
+
+@keyframes gridMove {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 40px 40px;
+  }
+
+  }
+
+.header-graphic{
+
+    width: 1000px;
+    border-radius: 15px;
+    border: 1px solid black;
+
+}
+
+
+.porto-photo{
+
+    width: 400px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+   
+}
+
+.Portfolio{
+     margin-top: 250px
+}
+
+.Portfolio-head{
+
+     display: grid;
+    grid-template-columns:repeat(3,400px);
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 150px;
+    
+}
+
+
+.porto-photo:hover{
+
+    transform: scale(1.05);
+}
+
+
+.about-window{
+
+    display: block;
+    justify-content: space-around;
+    text-align: center;
+   background-color: rgba(14, 14, 14,0.5);
+    height: 400px;
+    padding: 25px;
+    border-radius: 15px;
+    backdrop-filter: blur(2px);
+}
+
+
+.about-head{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.text-window{
+
+    font-size: 1.2rem;
+}
+
+.dsp-window{
+
+    font-size: 1rem;
+    max-width: 250px;
+}
+.icon-about{
+
+    width: 60px;
+    justify-self: center;
+    
+    padding: 30px;
+    border-radius: 15px;
+    filter: invert(1);
+
+}
+
+
+#contact-icon{
+    width: 100px;
+    justify-self: center;
+    display: block;
+    filter: invert(1);
+}
+
+
+.about-footer{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.socialmedias{
+
+    display: grid;
+}
+
+.credits-footer{
+    font-size: 1rem;
+   
+    
+}
+
+
+.sc-a{
+
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Inter;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.sc-a:hover{
+
+    transform: scale(1.05);
+    color: #a8a8a8;
+    
+}
+
+
+
+.footer-head{
+
+   background-image: url("img/footer-bg.png") ;
+   justify-content: space-evenly;
+   background-color: rgb(15, 15, 15);
+   background-blend-mode: overlay;
+   background-size: cover;
+   background-repeat: no-repeat;
+    
+   display: flex;
+   align-items: center;
+   height: 300px;
+   margin-bottom: 0px;
+  
+}
+
+.logo-footer{
+    width: 100px;
+    border-radius: 1000px;
+}
+
