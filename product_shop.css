@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+    font-family: Inter;
+}
+
+body{
+
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+    box-sizing: border-box;
+    flex-wrap: wrap;
+ 
+    background:#0e0e0e;
+  
+   
+}
+
+
+#button:active{
+
+    font-weight: bold;
+}
+
+nav{
+
+    background-color: rgba(12, 12, 12,0.5);
+    border-bottom: 1px solid rgb(50,50,50);
+    backdrop-filter: blur(3px);
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+}
+
+.store_logo{
+
+    max-width: 200px;
+    filter: invert(1);
+}
+
+
+
+#button{
+
+   font-family: Inter;
+     color: rgb(214, 214, 214);
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: all 1s ease;
+     scroll-behavior: smooth;
+    
+   
+}
+
+.links-a{
+    margin-top: 50px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+}
+
+.alink{
+
+    text-decoration: none;
+    background-color: none;
+    border: 1px solid rgba(255, 255, 255,0.5);
+    padding: 15px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    backdrop-filter: blur(2px);
+  font-family: Inter;
+    font-weight: 600;
+    transition: all 1s ease;
+}
+
+.alink:hover{
+
+    transform: scale(1.05);
+    background-color: rgb(228, 228, 228);
+    color: rgb(8, 8, 8);
+    transition: 0.3s ease;
+}
+
+
+#button:hover{
+
+    transform: translateY(-5px);
+
+    transition: 0.3s;
+}
+
+
+section{
+
+    margin-top: 150px;
+    
+    
+}
+.nav-a{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.product-image{
+
+    width: 300px;
+}
+
+li{
+
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+
+
+
+.header-text{
+    font-family: Inter;
+    text-align: center;
+    font-size: 2.4rem;
+    color: rgb(255, 255, 255);
+    
+}
+
+
+.buying-system{
+
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.buying-window{
+
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+    background-color: white;
+    width: 80%;
+    height: 500px;
+    flex-wrap: wrap;
+    
+    border-radius: 35px;
+    
+}
+
+.buying-section{
+
+    display: flex;
+    justify-content: space-evenly;
+    gap: 500px;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.product-photo{
+
+    width: 300px;
+    border-radius: 15px;
+}
+
+
+.right{
+
+    
+    width: 500px;
+    text-align: center;
+}
+.left{
+
+    text-align: center;
+}
+
+
+.nazwap{
+    color: #a1a1a1;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+.produkt{
+    font-size: 2rem;
+}
+
+
+.id{
+
+    font-size: 1rem;
+    color: #a1a1a1;
+}
+
+
+.right-ext{
+    font-size: 2rem;
+}
+
+.right-ext2{
+    font-size: 1.2rem;
+    color: #a1a1a1;
+    font-weight: 300;
+}
+.right-ext3{
+    font-size: 1.2rem;
+}
+
+
+.right-price{
+
+    font-size: 1.2rem;
+}
+
+
+.download-button{
+
+    background-color: black;
+    display: block;
+    width: 150px;
+    padding: 10px;
+    justify-self: center;
+   border-radius: 15px;
+   text-decoration: none;
+   color: #aaa;
+   transition: all 0.3s ease;
+    
+}
+.download-button:hover{
+
+
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    transform: scale(1.05);
+
+}
