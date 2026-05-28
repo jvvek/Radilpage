@@ -29,6 +29,13 @@ body{
 }
 
 
+.arrow{
+
+    width: 15px;
+    filter: invert(1);
+}
+
+
 #button:active{
 
     font-weight: bold;
@@ -150,6 +157,11 @@ h1{
     
 }
 
+.products-list{
+
+    display: flex;
+    gap: 15px;
+}
 .products-main{
 
     display: flex;
@@ -162,6 +174,20 @@ h1{
     justify-self: center;
     
     
+}
+
+#product-soon{
+
+    background: linear-gradient(187deg,rgba(181, 44, 212, 1) 0%, rgba(0, 0, 0, 1) 100%);
+
+}
+
+
+#soon-download{
+
+    background-color: #a8a8a8;
+    box-shadow: none;
+    color: #4b4a4a;
 }
 
 .Portfolio-head{
@@ -460,7 +486,7 @@ header{
    
     max-width: 400px;
     text-transform: uppercase;
-    text-align: right;
+    text-align: center;
 }
 
 

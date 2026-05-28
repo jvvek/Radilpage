@@ -16,20 +16,17 @@ body{
     box-sizing: border-box;
     flex-wrap: wrap;
  
-    background:#0e0e0e;
+    background:#ffffff;
   
    
 }
 
 
-#button:active{
 
-    font-weight: bold;
-}
 
 nav{
 
-    background-color: rgba(12, 12, 12,0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     border-bottom: 1px solid rgb(50,50,50);
     backdrop-filter: blur(3px);
     position: fixed;
@@ -41,7 +38,7 @@ nav{
 .store_logo{
 
     max-width: 200px;
-    filter: invert(1);
+   
 }
 
 
@@ -49,7 +46,7 @@ nav{
 #button{
 
    font-family: Inter;
-     color: rgb(214, 214, 214);
+     color: rgb(10, 10, 10);
     text-decoration: none;
     font-size: 1.5rem;
     transition: all 1s ease;
@@ -130,135 +127,38 @@ li{
 }
 
 
-
-
-.header-text{
-    font-family: Inter;
-    text-align: center;
-    font-size: 2.4rem;
-    color: rgb(255, 255, 255);
-    
-}
-
-
-.buying-system{
+.credits-main{
 
     justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-
-}
-
-
-.buying-window{
-
-    justify-content: center;
-    display: flex;
-    margin-top: 50px;
-    background-color: white;
-    width: 80%;
-    height: 500px;
-    flex-wrap: wrap;
-    
-    border-radius: 35px;
-    
-}
-
-.buying-section{
-
-    display: flex;
-    justify-content: space-evenly;
-    gap: 500px;
-    align-items: center;
-    flex-wrap: wrap;
-
-}
-
-.product-photo{
-
-    width: 300px;
-    border-radius: 15px;
-}
-
-
-.right{
-
-    
-    width: 500px;
-    text-align: center;
-}
-.left{
-
-    text-align: center;
-}
-
-
-.nazwap{
-    color: #a1a1a1;
-    font-weight: 300;
-    font-size: 1.3rem;
-}
-
-.produkt{
-    font-size: 2rem;
-}
-
-
-.id{
-
-    font-size: 1rem;
-    color: #a1a1a1;
-}
-
-
-.right-ext{
-    font-size: 2rem;
-}
-
-.right-ext2{
-    font-size: 1.2rem;
-    color: #a1a1a1;
-    font-weight: 300;
-}
-.right-ext3{
-    font-size: 1.2rem;
-}
-
-
-.right-price{
-
-    font-size: 1.2rem;
-}
-
-
-.download-button{
-
-    background-color: black;
     display: block;
-    width: 150px;
-    padding: 10px;
-    justify-self: center;
-   border-radius: 15px;
-   text-decoration: none;
-   color: #aaa;
-   transition: all 0.3s ease;
-    
 }
 
 
-.download-button.disabled {
-    background: gray;
-    pointer-events: none;
-    opacity: 0.6;
+
+.credits-head{
+
+    justify-content: center;
+    display: grid;
+    gap: 50px;
 }
 
-.check-about-copyrights{
-
-    display: flex;
+.Credits{
+    max-width: 600px;
+    color: rgb(0, 0, 0);
 }
 
-.arrow{
+.MainText{
 
-    width: 15px;
-    filter: invert(1);
+    font-weight: bold;
+    color: #1d1d1d;
+}
+
+
+.zasady{
+
+    font-weight: bold;
+}
+
+.Opis,.Opis2{
+    font-weight: 300;
 }
